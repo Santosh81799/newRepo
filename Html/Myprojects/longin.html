@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="icon" type="text/css" href="images/icon.jpg">
+
+	<style type="text/css">
+		body
+		{
+			height: 100%;
+  			margin: 0;
+		}
+		.t
+		{
+			height:100vh;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			background-image:url("images/wlpr1.jpeg");
+			
+			background-size: cover;
+
+			filter:blur(0px);
+			
+
+
+
+
+		}
+		.container
+		{
+			width: 400px;
+			height:500px;
+			border:2px hidden black;
+			padding-left:20px;
+			font-size: 18px;
+			color:white;
+			background-image:url("images/wlpr1.jpeg");
+			
+			background-size: cover;
+			border-radius: 0px 40px;
+			box-shadow: 1px 1px 12px 6px #52527a,2px 2px 16px 8px black;
+
+
+
+			
+		}
+		h1
+		{
+			text-align: center;
+		}
+		input[type="text"],input[type="password"]
+		{
+			width: 90%;
+			height:30px;
+			font-size: 15px;
+			background: none;
+			border-radius: 20px;
+			margin-top: 5px;
+			
+		}
+		input[type="password"]:hover
+		{
+			font-size: 20px;
+			color:cyan;
+		}
+		input[type="text"]:hover
+		{
+			font-size: 20px;
+			color:cyan;
+		}
+		.bs
+		{
+			width:50%;
+			height:35px;
+			margin-left:85px;
+			border:none;
+			background: #52527a;
+			color:white;
+			box-shadow: 1px 1px 3px 2px white,2px 2px 5px 3px black;
+			border-radius: 15px;
+			margin-top: 20px;
+		}
+		.bs:hover
+		{
+			width: 51%;
+			height:37px;
+			background-color:#cc6699;
+
+		}
+		
+		input[placeholder]
+		{
+			padding-left: 10px;
+
+		}
+		i
+		{
+
+			position: relative;
+			right:25px;
+		}
+		.forget
+		{
+			display: block;
+			text-align: right;
+			margin-right:30px;
+		}
+		#ttr
+		{
+			color:cyan;
+			margin-left: 10px;
+			padding: 5px;
+		}
+		#fb
+		{
+			color:blue;
+			margin-left: 3px;
+			padding: 5px;
+		}
+		#gm
+		{
+			color:red;
+			margin-left: 10px;
+			padding:5px;
+		}
+		.icon-container
+		{
+			
+			margin-left: 128px;
+			margin-top:20px;
+		}
+		.icon-container a
+		{
+			border:2px hidden black;
+			box-sizing: content-box;
+			border-radius: 10px;
+			text-decoration: none;
+		}
+		.icon-container a:hover
+		{
+			background-color: white;
+		}
+		.na a
+		{
+			display: block;
+			margin-left:128px;
+			text-decoration: none;
+			color:green;
+		}
+		.na a:hover
+		{
+			font-size:20px;
+		}
+		
+	</style>
+</head>
+<body >
+<div class="t">
+	<div class="container">
+		
+			<form action="">
+				<h1 class="lin">Login</h1>
+				<label>Username</label><br>
+				<input type="text" name="name" placeholder="Enter your username" autocomplete="off"><br><br>
+				<label>Password</label><br>
+				<input type="password" name="password" placeholder="Enter your password"><i class="fa fa-eye"></i><br><br>
+				<span class="forget">Forget password?</span>
+			
+				<input type="submit" value="Login"  class="bs"/>
+				<div class="icon-container">or signup using<br><br>
+				<a class="fa fa-facebook" id="fb" href="https://www.facebook.com/"></a>
+				<a class="fa fa-envelope" id="gm" href="https://accounts.google.com/v3/signin/identifier?dsh=S-200471193%3A1686502097428424&ffgf=1&ifkv=Af_xneGalqjaQIZeQR5Iltmbb60g6sor_8q_aODncQUf479vZXCdC3lL2YXDMZ925SXDq7PBVdH3Gw&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin"></a>
+				<a class="fa fa-twitter" id="ttr" href="https://twitter.com/i/flow/login"></a><br><br>
+				
+				</div>
+				
+				<span class="na"><a href="">Create account.</a></span>
+			</form>
+
+		
+	</div>
+</div>
+</body>
+</html>
